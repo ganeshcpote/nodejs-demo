@@ -19,7 +19,7 @@ res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+p
 }).listen(9009);
 console.log(__dirname+"/images/mithunlogo.jpg");
 */
-app.get('/mithuntechnologies', function(request, response) {
+app.get('/devops', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
@@ -75,5 +75,5 @@ app.get('/redirect', function(req, res) {
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
+        console.log("Node JS app is running at http://65.0.245.152:" + app.get('port') +"/devops");
       })
