@@ -42,7 +42,7 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'Mithun Reddy L'});
+        //res.json({'name': 'Adhi'});
         res.send({
 		'name': 'HTC Global Services',
 		'technology': 'DevOps',
@@ -75,7 +75,7 @@ app.get('/redirect', function(req, res) {
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://65.0.245.152/:" + app.get('port') +"/Devops");
+        console.log("Node JS app is running at http://65.0.245.152:" + app.get('port') +"/Devops");
       })
     
 
